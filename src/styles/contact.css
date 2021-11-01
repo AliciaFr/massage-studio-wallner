@@ -1,0 +1,66 @@
+.contact {
+    color: white;
+    background-color: #121212;
+    padding-bottom: 5em;
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+    .contact {
+        width: 345px;
+    }
+}
+
+.contact-vl {
+    border-left: 0.3em solid white;
+    height: 5em;
+    margin-left: 2em;
+    margin-bottom: -1em;
+}
+
+i.arrow-down {
+    border: solid white;
+    border-width: 0 0.3em 0.3em 0;
+    display: inline-block;
+    padding: 0.4em;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 1.593em
+}
+
+.contact-paragraph {
+    margin-bottom: 0 !important;
+}
+
+.address, .phone-number, .e-mail {
+    margin-bottom: 1em;
+}
+
+.e-mail {
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: 2.5em;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 850px)  {
+    .contact-vl {
+        border-left: 0.3em solid white;
+        height: 5em;
+        margin-bottom: -1em;
+    }
+
+    i.arrow-down {
+        border: solid white;
+        border-width: 0 0.3em 0.3em 0;
+        display: inline-block;
+        padding: 0.4em;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+}

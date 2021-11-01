@@ -1,0 +1,124 @@
+.landing-page {
+}
+
+.landing-page .background {
+    background-color: #68bd97;
+    height: 100vh;
+}
+
+/* iPhone 5
+You can also target devices with aspect ratio. */
+@media screen and (device-aspect-ratio: 40/71) {
+    .landing-page .background {
+        height: 650px;
+        width: 345px;
+    }
+}
+
+.plant-img {
+    width: 15em;
+    height: auto;
+    position: fixed !important;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 800px) {
+    .plant-img {
+        width: 10em;
+        height: auto;
+    }
+}
+
+.plant-1 {
+    margin-top: -0.5em;
+    width: 20em;
+    height: auto;
+    top: 0;
+    left: 0;
+    -moz-transform: translate(-10%, -10%);
+    -webkit-transform: translate(-10%, -10%);
+    -ms-transform: translate(-10%, -10%);
+    transform: translate(-10%, -10%);
+    transition: 1s ease;
+}
+
+@media only screen and (max-width: 800px) {
+    .plant-1 {
+        width: 13em;
+        height: auto;
+    }
+}
+
+
+.plant-1.active {
+    -moz-transform: translate(-55%, -55%);
+    -webkit-transform: translate(-55%, -55%);
+    -ms-transform: translate(-55%, -55%);
+    transform: translate(-55%, -55%);
+    transition: 1s ease;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+
+}
+
+.plant-2 {
+    position: absolute;
+    bottom: -8em;
+    left: -1em;
+    -moz-transform: translate(-10%, 10%);
+    -webkit-transform: translate(-10%, 10%);
+    -ms-transform: translate(-10%, 10%);
+    transform: translate(-10%, 10%);
+    transition: 1s ease;
+
+}
+
+.plant-2.active {
+    -moz-transform: translate(-35%, 35%);
+    -webkit-transform: translate(-35%, 35%);
+    -ms-transform: translate(-35%, 35%);
+    transform: translate(-35%, 35%);
+    transition: 1s ease;
+}
+
+.plant-3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -2em;
+    margin-right: -1.5em;
+    -moz-transform: translate(10%, -10%) rotate(-180deg);
+    -webkit-transform: translate(10%, -10%) rotate(-180deg);
+    -ms-transform: translate(10%, -10%) rotate(-180deg);
+    transform: translate(10%, -10%) rotate(-180deg);
+    transition: 1s ease;
+}
+
+.plant-3.active {
+    -moz-transform: translate(55%, -55%) rotate(-180deg);
+    -webkit-transform: translate(55%, -55%) rotate(-180deg);
+    -ms-transform: translate(55%, -55%) rotate(-180deg);
+    transform: translate(70%, -70%) rotate(-180deg);
+    transition: 1s ease;
+}
+
+.plant-4 {
+    bottom: -5em;
+    right: -1em;
+    position: absolute;
+    -moz-transform: translate(10%, 10%);
+    -webkit-transform: translate(10%, 10%);
+    -ms-transform: translate(10%, 10%);
+    transform: translate(10%, 10%);
+    transition: 1s ease;
+}
+
+.plant-4.active {
+    -moz-transform: translate(55%, 55%);
+    -webkit-transform: translate(55%, 55%);
+    -ms-transform: translate(55%, 55%);
+    transform: translate(55%, 55%);
+    transition: 1s ease;
+}

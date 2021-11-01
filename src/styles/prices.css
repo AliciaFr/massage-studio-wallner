@@ -1,0 +1,27 @@
+.prices {
+    background-color: #f0f2eb;
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+    .prices {
+        width: 345px;
+    }
+}
+
+.price {
+    text-transform: uppercase;
+}
+
+.appointment {
+    text-align: left;
+    cursor: pointer;
+}
+
+.price-vl {
+    border-left: 0.3em solid #121212;
+    height: 100%;
+    margin-left: 2em;
+    margin-top: 10.5em;
+    cursor: pointer;
+}
+

@@ -1,0 +1,63 @@
+.about {
+    background-color: white;
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+    .about .quote .about-text .img-massage {
+        width: 345px !important;
+    }
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-img {
+    width: 99.999%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 2em;
+}
+
+.img-closeup {
+    width: 100%;
+    height: auto;
+}
+
+.img-waiting {
+    width: 100%;
+    height: auto;
+}
+
+.img-massage {
+    width: 100%;
+    height: auto;
+}
+
+.quote {
+    margin-top: 7em;
+    padding-bottom: 3em;
+    font: 700 20px 'Metropolis', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.quote-line {
+    margin-bottom: 0.35em;
+}
+
+.about-text {
+    hyphens: auto;
+    text-align: justify;
+}
+
+.signature {
+    text-transform: uppercase;
+    margin-bottom: 5em;
+}
+
+.small-pictures {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

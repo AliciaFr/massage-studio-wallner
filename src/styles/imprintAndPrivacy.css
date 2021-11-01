@@ -1,0 +1,16 @@
+.imprint, .privacy {
+    margin-bottom: 4em;
+}
+
+.back-arrow {
+    color: black !important;
+    text-decoration: none !important;
+    margin-top: 3em;
+}
+
+.back-arrow:hover {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+
