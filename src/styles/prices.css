@@ -1,5 +1,6 @@
 .prices {
     background-color: #f0f2eb;
+    padding-bottom: 4em;
 }
 
 @media screen and (device-aspect-ratio: 40/71) {
