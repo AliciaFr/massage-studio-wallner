@@ -18,7 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/200.html && ",
+    "postbuild": "echo massagestudio-wallner.de > build/CNAME",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
