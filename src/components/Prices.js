@@ -1,6 +1,5 @@
 import '../styles/prices.css';
 import React, {Component} from 'react';
-import {Link, animateScroll as scroll} from "react-scroll";
 import Menu from './Menu';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -25,44 +24,12 @@ class Prices extends Component {
                                 </svg>
                             </div>
                             <div>
-                                <p className="price">40 Euro / Stunde</p>
+                                <p className="price">40 Euro / Stunde - Derzeit nicht verf&uuml;gbar</p>
                                 <p>für alle Behandlungen. Die Massagen sind auf eine Dauer von
                                     circa 60 Minuten ausgelegt.</p>
                             </div>
                         </Col>
                         <Col xs={1} sm={1} md={2}/>
-                    </Row>
-                    <Row>
-                        <Col xs={1} sm={1} md={2} ld={2} />
-                        <Col xs={3} sm={1} md={1}>
-                            <Link
-                                activeClass="active"
-                                to="contact"
-                                spy={true}
-                                smooth={true}
-                                offset={0}
-                                duration={500}
-                            >
-                                <div className="price-vl"/>
-                            </Link>
-                        </Col>
-                        <Col xs={7} sm={10} md={8}>
-                            <div className="quote appointment">
-                                <Link
-                                    activeClass="active"
-                                    to="contact"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={0}
-                                    duration={500}
-                                >
-                                    <p className="quote-line">Jetzt</p>
-                                    <p className="quote-line">Termin</p>
-                                    <p className="quote-line">vereinbaren</p>
-                                </Link>
-                            </div>
-                        </Col>
-                        <Col xs={0} sm={0} md={1}/>
                     </Row>
                 </Container>
             </div>

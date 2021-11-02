@@ -1,6 +1,6 @@
 import '../styles/menu.css';
 import React, { Component } from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 class Menu extends Component {
     constructor(props) {
@@ -45,6 +45,7 @@ class Menu extends Component {
                                 offset={0}
                                 duration={200}
                                 onClick={this.handleClick}
+                                style={ { textDecoration: 'none' } }
                             >Das Studio</Link></li>
                             <li><Link
                                 activeClass="active"
@@ -54,6 +55,7 @@ class Menu extends Component {
                                 offset={0}
                                 duration={200}
                                 onClick={this.handleClick}
+                                style={ { textDecoration: 'none' } }
                             >Behandlungen</Link></li>
                             <li><Link
                                 activeClass="active"
@@ -63,6 +65,7 @@ class Menu extends Component {
                                 offset={0}
                                 duration={200}
                                 onClick={this.handleClick}
+                                style={ { textDecoration: 'none' } }
                             >Preise</Link></li>
                             <li><Link
                                 activeClass="active"
@@ -72,6 +75,7 @@ class Menu extends Component {
                                 offset={0}
                                 duration={200}
                                 onClick={this.handleClick}
+                                style={ { textDecoration: 'none' } }
                             >Kontakt</Link></li>
                         </ul>
                     </nav>

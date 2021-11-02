@@ -31,6 +31,14 @@ i.arrow-down {
     margin-bottom: 0 !important;
 }
 
+.info {
+    margin-bottom: 3em;
+}
+
+.info-header {
+    text-transform: uppercase;
+}
+
 .address, .phone-number, .e-mail {
     margin-bottom: 1em;
 }
