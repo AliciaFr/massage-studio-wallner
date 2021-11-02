@@ -27,7 +27,7 @@ const Contact = () => {
                         </div>
                         <div className="info">
                             <p className="info-header">Keine Terminvergabe</p>
-                            <p className="contact-paragraph">Das Massagestudio ist vor&uuml;bergend geschlossen. Deshalb werden derzeit leider keine weiteren Termine angeboten.</p>
+                            <p className="contact-paragraph">Das Massagestudio ist vor&uuml;bergehend geschlossen. Deshalb werden derzeit leider keine weiteren Termine angeboten.</p>
                         </div>
                         <div className="address">
                             <a href="https://goo.gl/maps/5iL9uUZtboGaGDDV7" target="_blank" rel="noopener noreferrer">
